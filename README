@@ -1,6 +1,6 @@
 p_comment_disqus adds DISQUS comments to each paragraph of an HTML document.
 
-**Demo**: http://arthurkoziel.com/p_comment_disqus/
+Demo: http://arthurkoziel.com/p_comment_disqus/
 
 Installation
 ------------
@@ -12,5 +12,6 @@ Installation
         var disqus_shortname = 'YOUR_WEBSITE_SHORTNAME';
     </script>
     <script type="text/javascript" src="p_comment_disqus.js"></script>
+
 3. Replace 'YOUR_WEBSITE_SHORTNAME' with your DISQUS website shortname.
 
