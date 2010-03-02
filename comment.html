@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>untitled</title>
+</head>
+<body>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    function getUrlParameters() {
+        var map = {};
+        var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, 
+            function(m,key,value) { map[key] = value; });
+        return map; 
+    }
+    var disqus_developer = 1;
+
+    var url_parameters = getUrlParameters();
+    var disqus_identifier = url_parameters['hash'];
+    var disqus_shortname = url_parameters['shortname'];
+
+    document.write('<script type="text/javascript" src="http://disqus.com/forums/'+ disqus_shortname +'/embed.js"></' + 'script><noscript><a href="http://disqus.com/forums/'+ disqus_shortname +'/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>');
+</script>
+</body>
+</html>
+
