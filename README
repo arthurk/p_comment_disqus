@@ -15,3 +15,4 @@ Installation
 
 3. Replace 'YOUR_WEBSITE_SHORTNAME' with your DISQUS website shortname.
 
+Note: To test the script locally, set "var disqus_developer = 1;" in comment.html.
